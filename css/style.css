@@ -61,7 +61,8 @@ li a:hover{
 	background-color: #f7602f;
 }
 .mainbio{
-	height: 1000vh;
+	height: 100vh;
+	background-color: aqua;
 }
 
 .bandacompleta{
