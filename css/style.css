@@ -60,6 +60,9 @@ li a:hover{
 .main{
 	background-color: #f7602f;
 }
+.mainbio{
+	height: 1000vh;
+}
 
 .bandacompleta{
 	position: relative;
