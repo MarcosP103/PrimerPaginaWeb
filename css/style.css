@@ -1,6 +1,5 @@
-/*
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Ubuntu:ital@0;1&display=swap');
-*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -14,7 +13,7 @@
 }
 
 nav{
-	background-color: black;
+	width: 100%;
 }
 .nav ul{
 	list-style: none;
@@ -25,7 +24,6 @@ ul{
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	background: black;
 	overflow: hidden;
 }
 .logo img{
@@ -57,17 +55,23 @@ li a:hover{
 	color: whitesmoke;
 }
 
-.main{
+.navbar-toggler{
+	color: #f7602f;
 	background-color: #f7602f;
 }
-.mainbio{
-	height: 100vh;
-	background-color: aqua;
+
+.nav-item a{
+	font-family: 'DM Sans', sans-serif;
+}
+
+.main{
+	background-color: #f7602f;
 }
 
 .bandacompleta{
 	position: relative;
 	width: 100%;
+	margin-top: 35px;
 }
 
 .bandacompleta img{
@@ -114,6 +118,7 @@ h2{
 	grid-auto-rows: minmax(200px, auto);
 	gap: 20px;
 	padding: 20px;
+	margin-top: 50px;
 }
 .discografiacontainer img{
 	display: flex;
@@ -231,11 +236,6 @@ h2{
 	
 }
 
-h2{
-	text-align: center;
-   font-family: 'DM Sans', sans-serif;
-}
-
 a{
 	text-decoration: none;
 }
@@ -251,24 +251,27 @@ p{
 	display: center;
 }
 
-.video1{
-	display: center;
-	padding: 20px;
-	margin: 30px;
-
-}
-.video2{
-	display: center;
-	padding: 20px;
-	margin: 30px;
-}
-
 h3{
 	text-align: center;
    font-family: 'DM Sans', sans-serif; 
 }
 
-.galeria{
+.carousel-inner{
+	height: 700px;
+}
+.carousel-item{
+	height: 700px;
+}
+.carousel-item img{
+	height: 700px;
+	object-fit: cover;
+	transform: translate(0px, 50px);
+}
+
+.carousel-item iframe{
+	margin-top: 55px;
+}
+/*.galeria{
 	justify-content: center;
 	padding: 10px;
 	margin: 5px;
@@ -283,7 +286,25 @@ h3{
 	transition: transform 0.3s ease-in-out;
 	box-shadow: 7px 7px 5px 0px #e7997c;
 	border: 2px solid white;
+}*/
+
+.divshows{
+	text-align: center;
+	margin-top: 40px;
+	padding: 5px;
+	background-image: url('../assets/velpuercaeuropa2.jpg');
+	background-repeat: fixed;
 }
+
+.mainbio{
+	height: 100vh;
+	display: table-footer-group;
+}
+.h2bio{
+	margin: 10px;
+	padding: 50px;
+}
+
 
 @media (max-width: 652px){
 	.video1{
@@ -293,5 +314,11 @@ h3{
 		width: 400px;
 	}
 
+}
+
+@media only screen and (max-width: 576px){
+	.carousel-inner, .carousel-item, .carousel-item img{
+		height: 400px;
+	}
 }
 
