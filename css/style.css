@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Ubuntu:ital@0;1&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Ubuntu:ital@0;1&display=swap');*/
 
 *{
 	margin: 0;
@@ -19,28 +19,18 @@ nav{
 	list-style: none;
 	text-align: center;
 }
-
 ul{
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
 }
-.logo img{
-	transition: 0s;
-}
 
-.nav li{
-	display: inline-block;
-	flex-flow: initial;
-	align-items: flex-start;
-}
-
-li a{
+.nav-item {
 	display: flex;
 	color: white;
 	text-align: center;
-	padding: 15px 15px;
+	padding-right: 10px;
 	text-decoration: double;
 	transition: .5s;
 	font-family: 'DM Sans', sans-serif;
@@ -49,7 +39,6 @@ li a{
 li a:visited{
 	color: rgb(171, 121, 219);
 }
-
 li a:hover{
 	background-color: blue;
 	color: whitesmoke;
@@ -58,10 +47,6 @@ li a:hover{
 .navbar-toggler{
 	color: #f7602f;
 	background-color: #f7602f;
-}
-
-.nav-item a{
-	font-family: 'DM Sans', sans-serif;
 }
 
 .main{
@@ -99,7 +84,6 @@ h1{
 
 .discopaticoindex iframe{
 	align-content: center;
-
 }
 
 h2{
@@ -108,7 +92,7 @@ h2{
 	flex-flow: flex-start;
 	text-decoration: blink;
 	-webkit-text-stroke: 1px white;
-	font-size: 25px;
+	font-size: 40px;
 	padding: 20px;
 }
 
@@ -118,7 +102,7 @@ h2{
 	grid-auto-rows: minmax(200px, auto);
 	gap: 20px;
 	padding: 20px;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 .discografiacontainer img{
 	display: flex;
@@ -224,7 +208,6 @@ h2{
 	justify-content: first baseline;
 }*/
 
-
 .footer{
 	width: 100%;
 	background-color: black;
@@ -233,18 +216,14 @@ h2{
 	position: relative; 
 	bottom:0;
 	padding: 5px 0;
-	
 }
-
 a{
 	text-decoration: none;
 }
-
 p{
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 }
-
 .redes{
 	padding: 10px;
 	justify-content: space-between;
@@ -290,10 +269,24 @@ h3{
 
 .divshows{
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 70px;
 	padding: 5px;
 	background-image: url('../assets/velpuercaeuropa2.jpg');
 	background-repeat: fixed;
+}
+
+.divshows h2{
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	flex-flow: flex-start;
+	text-decoration: blink;
+	-webkit-text-stroke: 2px black;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.divshows h2 a{
+	text-transform: black;
 }
 
 .mainbio{
@@ -301,19 +294,32 @@ h3{
 	display: table-footer-group;
 }
 .h2bio{
-	margin: 10px;
-	padding: 50px;
+	margin-top: 80px;
+	padding: 10px;
+	color: black;
+}
+.h3bio{
+	text-align: center;
+	text-shadow: 1px 1px 2px pink;
+	margin: 20px;
+   line-height: 1.5em;
+}
+.integrantes{
+	text-align: center;
+	text-shadow: 1px 1px 2px pink;
+	margin: 20px;
+   line-height: 1.5em;
 }
 
-
-@media (max-width: 652px){
-	.video1{
-		width: 400px;
+@media (max-width: 700px){
+	.bandacompleta img{
+		margin-top: 30px;
 	}
-	.video2{
-		width: 400px;
-	}
-
+	.discografiacontainer{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+		}
 }
 
 @media only screen and (max-width: 576px){
