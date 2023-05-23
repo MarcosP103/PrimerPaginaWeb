@@ -12,8 +12,9 @@
 	min-height: 100vh;
 }
 
-nav{
+.nav{
 	width: 100%;
+	align-items: flex-start;
 }
 .nav ul{
 	list-style: none;
@@ -36,12 +37,13 @@ ul{
 	font-family: 'DM Sans', sans-serif;
 }
 
-.nav-item:visited{
-	color: rgb(171, 121, 219);
+.nav .nav-item a:visited {
+  color: rgb(171, 121, 219) ;
 }
-.nav-item:hover{
-	background-color: blue;
+.nav .nav-item a:hover {
+	background-color: blue !important;
 	color: whitesmoke;
+	height: 50px;
 }
 
 .navbar-toggler{
@@ -217,9 +219,7 @@ h2{
 	bottom:0;
 	padding: 5px 0;
 }
-a{
-	text-decoration: none;
-}
+
 p{
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
@@ -269,7 +269,7 @@ h3{
 
 .divshows{
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 60px;
 	padding: 5px;
 	background-image: url('../assets/velpuercaeuropa2.jpg');
 	background-repeat: fixed;
