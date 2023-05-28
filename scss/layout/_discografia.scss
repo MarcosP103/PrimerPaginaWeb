@@ -1,0 +1,26 @@
+.discopaticoindex iframe{
+	align-content: center;
+}
+.discografiacontainer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(200px, auto);
+	gap: 20px;
+	padding: 20px;
+	margin-top: 60px;
+}
+.discografiacontainer img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transition: transform 0.3s ease-in-out;
+	box-shadow: 7px 7px 5px 0px #e7997c;
+	border: 2px solid white;
+}
+.discografiaitems:hover {
+	filter: opacity(0.9);
+	transform: scale(1.04);
+}

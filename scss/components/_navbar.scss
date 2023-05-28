@@ -1,0 +1,39 @@
+
+.nav{
+	width: 100%;
+	align-items: flex-start;
+}
+.nav ul{
+	list-style: none;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.nav-item {
+	display: flex;
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	text-decoration: double;
+	transition: .5s;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.nav .nav-item a:visited {
+  color: rgb(171, 121, 219) ;
+}
+.nav .nav-item a:hover {
+	background-color: blue !important;
+	color: whitesmoke;
+	height: 50px;
+}
+
+.navbar-toggler{
+	color: #f7602f;
+	background-color: #f7602f;
+}

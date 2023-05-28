@@ -1,0 +1,21 @@
+.divshows{
+	text-align: center;
+	margin-top: 60px;
+	padding: 5px;
+	background-image: url('../assets/velpuercaeuropa2.jpg');
+	background-repeat: fixed;
+}
+
+.divshows h2{
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	flex-flow: flex-start;
+	text-decoration: blink;
+	-webkit-text-stroke: 2px black;
+	font-size: 25px;
+	padding: 5px;
+}
+
+.divshows h2 a{
+	text-transform: black;
+}

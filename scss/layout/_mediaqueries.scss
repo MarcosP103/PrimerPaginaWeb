@@ -1,0 +1,16 @@
+@media (max-width: 700px){
+	.bandacompleta img{
+		margin-top: 30px;
+	}
+	.discografiacontainer{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+		}
+}
+
+@media only screen and (max-width: 576px){
+	.carousel-inner, .carousel-item, .carousel-item img{
+		height: 400px;
+	}
+}
