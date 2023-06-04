@@ -10,6 +10,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+        <!--link animatecss-->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--link aos style-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!--link al css-->
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/70d907693e.js" crossorigin="anonymous"></script>
@@ -20,8 +24,7 @@
             <div class="nav">
                 <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/logo-white.png" width="40px"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
@@ -30,7 +33,8 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <ul class="navbar-nav d-flex justify-content-center flex-grow-1 pe-3">
+                    <a class="navbar-brand" href="index.html"><img src="assets/logo-white.png" width="40px"></a>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="pages/discografia.html">Discografía</a>
                     </li>
@@ -53,12 +57,11 @@
         <main class="main">
             <section class="bandacompleta">
                 <img src="assets/bandacompleta-min.jpg">
-                <h1>La Vela Puerca</h1>
+                <h1 class="animate__animated animate__bounceInDown">La Vela Puerca</h1>
             </section>
             <h2>Escuchá Discopatico</h2>
             <section class="discopaticoindex">
-                <!--<img src="assets/2022-velapuerca-discopatico.jpg">-->
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0tjbeQCarEUtbhlyyCRp0r?utm_source=generator&theme=0" width="100%" height="400" frameBorder="10" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0tjbeQCarEUtbhlyyCRp0r?utm_source=generator&theme=0" width="100%" height="400" frameBorder="10" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" data-aos="fade-up"></iframe>
             </section>
         </main>
 
@@ -75,5 +78,8 @@
         </footer>
         <!--script bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <!--script aos-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
     </body>
 </html>

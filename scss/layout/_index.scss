@@ -4,13 +4,12 @@
 	min-height: 100vh;
 }
 .main{
-	background-color: #f7602f;
+	background: linear-gradient(#f7602f, #332b96, #f7602f);
 }
 
 .bandacompleta{
 	position: relative;
-	width: 100%;
-	margin-top: 55px;
+	margin-top: 60px;
 }
 .bandacompleta img{
 	width: 100%;
@@ -40,4 +39,7 @@ h2{
 	-webkit-text-stroke: 1px white;
 	font-size: 40px;
 	padding: 20px;
+}
+.discopaticoindex iframe{
+	align-content: center;
 }
