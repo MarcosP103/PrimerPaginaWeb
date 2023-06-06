@@ -1,13 +1,13 @@
-
 .mainbio {
   height: 100vh;
   display: table-footer-group;
-  background: linear-gradient(#f7602f, #332b96, #f7602f);
+  background: $main-color;
 }
 .h2bio {
+  font-family: $fonttitulo;
   margin-top: 80px;
   padding: 10px;
-  color: black;
+  color: $color;
 }
 .h3bio {
   text-align: center;
@@ -26,5 +26,5 @@
 }
 h3 {
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: $fontparrafos;
 }

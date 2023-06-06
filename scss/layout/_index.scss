@@ -4,7 +4,7 @@
 	min-height: 100vh;
 }
 .main{
-	background: linear-gradient(#f7602f, #332b96, #f7602f);
+	background: $main-color;
 }
 
 .bandacompleta{
@@ -23,7 +23,7 @@
 h1{
 	text-align: absolute;
 	align-items: center;
-	font-family: 'DM Sans', sans-serif;
+	font-family: $fonttitulo;
 	flex-flow: flex-start;
 	text-decoration: blink;
 	margin-bottom: top;
@@ -39,7 +39,7 @@ h1{
 
 h2{
 	text-align: center;
-	font-family: 'DM Sans', sans-serif;
+	font-family: $fonttitulo;
 	text-decoration: blink;
 	-webkit-text-stroke: 1px white;
 	font-size: 40px;
