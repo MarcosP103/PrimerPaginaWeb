@@ -1,16 +1,45 @@
-@media (max-width: 700px){
-	.bandacompleta img{
-		margin-top: 30px;
-	}
-	.discografiacontainer{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 10px;
-		}
+@media (max-width: 700px) {
+  .bandacompleta img {
+    margin-top: -5px;
+  }
+  .discografiacontainergeneral {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
 }
 
-@media only screen and (max-width: 576px){
-	.carousel-inner, .carousel-item, .carousel-item img{
-		height: 400px;
-	}
+@media only screen and (max-width: 576px) {
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item img {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .discografiacontainergeneral {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 15px;
+  }
 }
