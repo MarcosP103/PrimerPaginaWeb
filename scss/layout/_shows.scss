@@ -1,31 +1,29 @@
-.divshows{
-	text-align: center;
-	margin-top: 60px;
-	padding: 5px;
-	background-image: url('../assets/velpuercaeuropa2.jpg');
-	background-repeat: fixed;
-}
-
-.divshows h2{
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
-	flex-flow: flex-start;
-	color: #fbfb09;
-	-webkit-text-stroke: 1px #000000;
-	font-size: 25px;
-	padding: 5px;
-}
-
-.divshows a{
-	text-decoration: none;
-	background: #8e25da;
+.divshows {
+  text-align: center;
+  margin-top: 60px;
+  padding: 5px;
+  background-image: url("../assets/velpuercaeuropa2.jpg");
+  background-repeat: fixed;
+  & h2 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    flex-flow: flex-start;
     color: #fbfb09;
-    text-shadow: 1px 1px #fff;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 25px;
+    padding: 5px;
+  }
 }
+.divshows a {
+  text-decoration: none;
+  background: #8e25da;
+  color: #fbfb09;
+  text-shadow: 1px 1px #fff;
 
-.divshows a:hover{
-	background-color: blue !important;
-	color: whitesmoke;
-	height: 40px;
-	transition: .5s;
+  &:hover {
+    background-color: blue !important;
+    color: whitesmoke;
+    height: 40px;
+    transition: 0.5s;
+  }
 }
