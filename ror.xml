@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://marcosp103.github.io/pre-entrega2/</title>
+  <link>https://marcosp103.github.io/pre-entrega2/</link>
+
+<item>
+     <link>https://marcosp103.github.io/pre-entrega2/</link>
+     <title>La Vela Puerca - Oficial</title>
+     <description>Sitio dedicado en exclusiva a la banda de musica uruguaya La Vela Puerca. En esta página podrás escuchar un demo del último disco publicado, titulado Discopatico. Además encontrarás información acerca de su dicografía, próximos shows y parte de su biografía y colaboraciones con otros artistas a lo largo de su carrera.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://marcosp103.github.io/pre-entrega2/index.html</link>
+     <title>La Vela Puerca - Oficial</title>
+     <description>Sitio dedicado en exclusiva a la banda de musica uruguaya La Vela Puerca. En esta página podrás escuchar un demo del último disco publicado, titulado Discopatico. Además encontrarás información acerca de su dicografía, próximos shows y parte de su biografía y colaboraciones con otros artistas a lo largo de su carrera.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://marcosp103.github.io/pre-entrega2/pages/discografia.html</link>
+     <title>Discografia</title>
+     <description>Sitio dedicado en exclusiva a la banda de musica uruguaya La Vela Puerca. En esta página verás el nombre y año de todos los discos publicados por la banda. Además encontrarás información de sus próximos shows y parte de su biografía y colaboraciones con otros artistas a lo largo de su carrera. También podrás acceder a la escucha previa de su último disco titulado Discopatico.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://marcosp103.github.io/pre-entrega2/pages/galeria.html</link>
+     <title>Galeria</title>
+     <description>Sitio dedicado en exclusiva a la banda de musica uruguaya La Vela Puerca. En esta página podrás ver una galería de imagenes de la banda a lo largo de los años y algunos videos publicados. Además encontrarás información acerca de su dicografía, esuchar el último disco, ver donde serán los próximos shows y parte de su biografía y colaboraciones con otros artistas a lo largo de su carrera.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://marcosp103.github.io/pre-entrega2/pages/shows.html</link>
+     <title>Shows</title>
+     <description>Sitio dedicado en exclusiva a la banda de musica uruguaya La Vela Puerca. En esta página encontrarás información de dónde se estarán presentando y links donde comprar las entredas. Además encontrarás información acerca de su dicografía, escuchar un demo del disco Discopatico y parte de su biografía y colaboraciones con otros artistas a lo largo de su carrera.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://marcosp103.github.io/pre-entrega2/pages/bio.html</link>
+     <title>Bio</title>
+     <description>Sitio dedicado en exclusiva a la banda de musica uruguaya La Vela Puerca. En esta página está plasmada parte de su historia y artistas conn los que han colaborado. Además encontrarás información acerca de su dicografía, próximos shows y podrás escuchar un demo de su disco Discopatico.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
