@@ -30,6 +30,7 @@ ul {
   color: white;
   text-align: center;
   padding-right: 10px;
+  padding-top: 5px;
   text-decoration: double;
   transition: 0.5s;
   font-family: "DM Sans", sans-serif;
@@ -40,7 +41,7 @@ ul {
 }
 
 .nav .nav-item a:hover {
-  background-color: blue !important;
+  background-color: #5b5bef !important;
   color: whitesmoke;
   height: 40px;
   transition: 0.5s;
@@ -49,6 +50,12 @@ ul {
 .navbar-toggler {
   color: #f7602f;
   background-color: #f7602f;
+}
+
+.offcanvas-header {
+  background-image: url("../assets/2.jpg");
+  position: relative;
+  top: 20px;
 }
 
 .footer {
@@ -218,8 +225,7 @@ h2 {
 
 .h3bio {
   text-align: center;
-  text-shadow: 1px 1px 2px pink;
-  margin: 50px;
+  margin: 30px;
   line-height: 1.5em;
 }
 

@@ -19,6 +19,7 @@ ul{
 	color: white;
 	text-align: center;
 	padding-right: 10px;
+	padding-top: 5px;
 	text-decoration: double;
 	transition: .5s;
 	font-family: 'DM Sans', sans-serif;
@@ -27,7 +28,7 @@ ul{
   color: rgb(171, 121, 219) ;
 }
 .nav .nav-item a:hover {
-	background-color: blue !important;
+	background-color: #5b5bef !important;
 	color: whitesmoke;
 	height: 40px;
 	transition: .5s;
@@ -36,4 +37,10 @@ ul{
 .navbar-toggler{
 	color: #f7602f;
 	background-color: #f7602f;
+}
+
+.offcanvas-header {
+	background-image: url("../assets/2.jpg");
+	position: relative;
+	top: 20px;
 }
