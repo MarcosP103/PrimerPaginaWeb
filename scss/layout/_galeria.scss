@@ -1,16 +1,17 @@
 .carousel-inner {
   @extend .height;
+  height: 100vh;
 }
 .carousel-item {
   @extend .height;
   & img {
     @extend .height;
     object-fit: cover;
-    transform: translate(0px, 50px);
+    transform: translate(0px, 50px);}
     & iframe {
-      margin-top: 55px;
+      @extend .height;
+      margin-top: 60px;
     }
-  }
 }
 
 .carousel-item p {

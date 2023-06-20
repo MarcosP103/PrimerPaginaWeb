@@ -21,9 +21,10 @@
   text-shadow: 1px 1px #fff;
 
   &:hover {
-    background-color: blue !important;
+    background-color: rgb(75, 75, 213) !important;
     color: whitesmoke;
     height: 40px;
     transition: 0.5s;
+    font-size: 20px;
   }
 }
