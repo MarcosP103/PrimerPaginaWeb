@@ -1,11 +1,11 @@
 //MIXIN
-@mixin display($flex, $align, $justify){
-    display: $flex;
-    align-items: $align;
-    justify-content: $justify;
+@mixin display($flex, $align, $justify) {
+  display: $flex;
+  align-items: $align;
+  justify-content: $justify;
 }
 
 //EXTEND
 .height {
-    height: 700px;
-  }
+  height: 700px;
+}

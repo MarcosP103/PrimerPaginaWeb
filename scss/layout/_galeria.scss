@@ -7,11 +7,12 @@
   & img {
     @extend .height;
     object-fit: cover;
-    transform: translate(0px, 50px);}
-    & iframe {
-      @extend .height;
-      margin-top: 60px;
-    }
+    transform: translate(0px, 50px);
+  }
+  & iframe {
+    @extend .height;
+    margin-top: 60px;
+  }
 }
 
 .carousel-item p {

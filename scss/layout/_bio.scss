@@ -8,10 +8,6 @@
   margin-top: 80px;
   padding: 10px;
   color: $color;
-  &:hover {
-    transition: .5s;
-    font-size: 50px;
-  }
 }
 .h3bioprincipal {
   text-align: center;
@@ -27,7 +23,7 @@
 .caja {
   overflow: hidden;
 }
-.h2integrantes{
+.h2integrantes {
   object-fit: cover;
 }
 .integrantes {
