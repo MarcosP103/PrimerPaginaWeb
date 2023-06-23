@@ -157,7 +157,7 @@ h2 {
   justify-content: center;
   object-fit: cover;
 }
-.videosmuestra video {
+.videosmuestra iframe {
   width: 450px;
   margin: 5px;
   padding: 5px;
@@ -203,6 +203,10 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
   margin-top: 15px;
+}
+
+.body {
+  background: linear-gradient(70deg, #dc4f67, #86224d, #6c58b6);
 }
 
 .carousel-inner {
@@ -350,7 +354,7 @@ h3 {
   }
 }
 @media only screen and (max-width: 576px) {
-  .videoindex video {
+  .videoindex iframe {
     width: 300px;
   }
   .maincarrusel {
@@ -390,7 +394,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .videoindex video {
+  .videoindex iframe {
     width: 200px;
   }
 }

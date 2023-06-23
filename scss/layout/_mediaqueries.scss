@@ -52,7 +52,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .videoindex video {
+  .videoindex iframe {
     width: 300px;
   }
   .maincarrusel {
@@ -92,7 +92,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .videoindex video {
+  .videoindex iframe {
     width: 200px;
   }
 }
